@@ -1,4 +1,4 @@
-wzorce = {
+wzor = {
     0: ['###', '# #', '# #', '# #', '###'],
     1: ['#', '#', '#', '#', '#'],
     2: ['###', '  #', '###', '#  ', '###'],
@@ -15,5 +15,5 @@ wzorce = {
 liczba = input("Podaj liczbe do wyświetlenia")
 for i in range(0, 5):
     for cyfra in liczba:
-        print(wzorce[int(cyfra)][i], end=' ')
+        print(wzor[int(cyfra)][i], end=' ')
     print()
